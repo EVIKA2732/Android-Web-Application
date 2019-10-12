@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    //HandyOpenSource loader
+    //PWA loader
     public void loadweb() {
 
 
@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 InputMethodManager inputManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
                 inputManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), inputManager.HIDE_NOT_ALWAYS);
-                String hr = "https://";
+                String hr = "https://change.org";
                 int ir = 0;
                 for (int i = 0; i < editText.getText().toString().length(); i++) {
                     char charoAt = editText.getText().toString().charAt(i);
@@ -235,8 +235,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //public boolean onKeyDown(int keyCode, KeyEvent event) {
-    //   if ((keyCode == KeyEvent.KEYCODE_BACK) && HandyOpenSource.canGoBack()) {
-    //      HandyOpenSource.goBack();
+    //   if ((keyCode == KeyEvent.KEYCODE_BACK) && PWAloader.canGoBack()) {
+    //      PWAloader.goBack();
     //       return true;
     //   }
     //  return super.onKeyDown(keyCode, event);
